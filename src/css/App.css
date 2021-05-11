@@ -1,0 +1,57 @@
+
+
+.app{
+  height: 100%;
+}
+
+.section{
+  height: 100%;
+}
+
+.section-bg:nth-child(even){
+  background-color: var(--default-background-color);
+  color: white;
+}
+
+
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+
+
+/* custome */
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-fw{
+  background-color: var(--clr-btn);
+  color: black;
+  border-radius: 20px;
+  border: 2px solid var(--clr-btn);
+  min-width: 12ch;
+  padding: 0.4em 0.5em;
+  text-align: center;
+  transition-duration: var(--default-transition-duration);
+  cursor: pointer;
+}
+
+.btn-fw:hover{
+  background-color: var(--bg-color-effect);
+  color: white;
+}
+
+.btn{
+  display: inline;
+  font-weight: bold;
+  color: var(--clr-btn);
+  transition-duration: var(--default-transition-duration);
+  cursor: pointer;
+}
+

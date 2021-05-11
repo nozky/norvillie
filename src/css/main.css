@@ -1,0 +1,54 @@
+.main{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 2em;
+  background-image: url(https://images.unsplash.com/photo-1602014664718-a616ae938e34?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2slMjBwaG90b3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  background-repeat: no-repeat;
+  background-position:right;
+  background-size:cover;
+  height: 100%;
+}
+
+.main .left-side{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 2;
+}
+
+.left-side .icons{
+  display: flex;
+  justify-content: center;
+  margin: 0.5em 0;
+  gap: 2em;
+}
+
+.main .title{
+  text-align: center;
+}
+
+.main .left-side .btn-cta{
+  display: flex;
+  justify-content: center;
+  padding: 0.2em;
+  gap: 0.3em;
+}
+
+.main .icons > div{
+  cursor: pointer;
+  font-size: 1.3em;
+  transition-duration: var(--default-transition-duration);
+}
+
+.main .icons > div:hover{
+  opacity: 0.5;
+}
+
+/* right side */
+.main .right-side{
+  flex-grow: 1;
+}

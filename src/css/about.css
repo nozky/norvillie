@@ -1,0 +1,42 @@
+.about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  width: 100%;
+  gap: 2em;
+}
+
+.about p{
+  margin: 0.5em 0;
+}
+
+.about article{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width:100%;
+  gap: 2em;
+}
+
+.about article img{
+  width: 100%;
+  margin-bottom: 0.5em;
+  border-radius: 5px;
+}
+
+.about article .about-text{
+  display: flex;
+  flex-direction: column;
+  width: 50ch;
+}
+
+.about .about-text span{
+  color: var(--clr-btn)
+}
+
+.about article .btn{
+  margin-top: 0.5em;
+}
+

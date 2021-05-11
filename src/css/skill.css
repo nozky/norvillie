@@ -1,0 +1,40 @@
+.skill{
+  display: flex;
+  justify-content: center;
+  /* background-color: red; */
+  padding: 2em;
+}
+
+
+.skill .skill-wrapper{
+  width: 100%;
+  padding-top: 8em;
+}
+
+.skill-wrapper .title{
+  text-align: center;
+}
+
+.skill-wrapper .skills-item{
+  margin-top: 1em;
+}
+
+.skill-wrapper .skills-item .p-bar{
+  background-color: orange;
+  padding: 0 1em;
+  text-align: end;
+  border-radius: 5px;
+}
+
+@media screen and  (min-width: 900px ){
+  .skill .skill-wrapper{
+    width: 80%;
+  }
+}
+
+/* animate */
+
+.p-start{
+  width: 0;
+  transition: width 3s ease-in;
+}
