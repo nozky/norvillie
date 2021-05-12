@@ -15,7 +15,7 @@ const About = () => {
         <h4>Web Developer</h4>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, dolorum mollitia rem eligendi culpa laudantium.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, dolorum mollitia rem eligendi culpa laudantium.</p>
-         <div className='btn btn-fw'>Message me</div>
+         <div className='btn-fw'>Message me</div>
       </div>
       
       </article>

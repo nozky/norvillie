@@ -14,14 +14,6 @@
 }
 
 
-footer{
-  background-color: black;
-  color: white;
-  text-align: center;
-  padding: 1em;
-}
-
-
 
 /* custome */
 .flex-center{
@@ -55,3 +47,7 @@ footer{
   cursor: pointer;
 }
 
+.btn:hover{
+  background-color: var(--bg-color-effect);
+  color: white;
+}

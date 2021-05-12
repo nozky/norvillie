@@ -2,9 +2,10 @@ import React from 'react'
 import '../css/main.css'
 import {AiOutlineLinkedin, AiOutlineGithub, AiOutlineMail} from 'react-icons/ai'
 
+
 const Main = () => {
   return (
-  <main className='main'>
+  <main className='main' id='home'>
       <div className='left-side'>
         
         <p>Welcome to my page</p>

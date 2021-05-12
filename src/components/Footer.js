@@ -1,12 +1,21 @@
-import React,{useRef} from 'react'
+import {Link} from 'react-scroll'
+import '../css/footer.css'
 
-const Footer = () => {
+const Footer = ({links}) => {
 
 
   return (
-    <footer className='section-bg'>
+    <footer className='section-bg' id='footer'>
       <div className="footer-nav">
-        <a className='btn' href="logo">Home |</a>
+        {links.map((link,index)=>{
+          return(
+           
+              <div key={index} className='footer-nav-item'>
+                <Link key={index} to={link.toLowerCase()} smooth={true} duration={1000}>| {link} |</Link>
+              </div>
+         
+          )
+        })}
       </div>
       <p>Norvillie Villaruel</p>
       <p>FullStack Web Developer</p>

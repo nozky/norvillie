@@ -11,9 +11,9 @@ const Skills = () => {
    setElPos(trackedElement.current.offsetTop)
   },[])
 
-  console.log(elPos)
+
   return (
-    <section className='section skill section-bg'>
+    <section className='section skill section-bg' id="skills">
 
       <div className="skill-wrapper">
         <div className='title'>

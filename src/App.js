@@ -11,16 +11,18 @@ import Skills from './components/Skills';
 
 function App() {
 
+  const links =['Home','About','Works','Skills','Contact']
+
   return (
     <div className="app">
-      <Header />
+      <Header links={links}/>
       <Main />
       <About />
       <Works />
       <Skills />
       <Education />
       <Contact />
-      <Footer />
+      <Footer links={links} />
     </div>
   );
 }

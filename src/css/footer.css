@@ -1,0 +1,19 @@
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+.footer-nav{
+  display: flex;
+  justify-content: center;
+  color: var(--clr-btn);
+  gap: 1em;
+  cursor: pointer;
+}
+
+.footer-nav > div:hover{
+  opacity: 0.5;
+  transition: opacity var(--default-transition-duration);
+}
