@@ -15,7 +15,7 @@
 
 
 
-/* custome */
+/*custom*/
 .flex-center{
   display: flex;
   justify-content: center;
@@ -23,12 +23,13 @@
 }
 
 .btn-fw{
+  font-weight: 500;
   background-color: var(--clr-btn);
   color: black;
-  border-radius: 20px;
+  border-radius: 10px;
   border: 2px solid var(--clr-btn);
   min-width: 12ch;
-  padding: 0.4em 0.5em;
+  padding: 0.2em 0.5em;
   text-align: center;
   transition-duration: var(--default-transition-duration);
   cursor: pointer;

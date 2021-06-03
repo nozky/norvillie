@@ -8,10 +8,11 @@ import Contact from './components/Contact';
 import Works from './components/Works';
 import Education from './components/Education';
 import Skills from './components/Skills';
+import {links} from './components/data/links'
 
 function App() {
 
-  const links =['Home','About','Works','Skills','Contact']
+  
 
   return (
     <div className="app">

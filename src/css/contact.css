@@ -57,5 +57,9 @@
    .contact * {
      font-size: x-large;
    }
+
+   .contact h2{
+     font-size: 3em;
+   }
 }
 

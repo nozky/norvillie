@@ -13,8 +13,8 @@ const About = () => {
       <div className='about-text'>
         <h2>I am <span>Norvillie</span></h2>
         <h4>Web Developer</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, dolorum mollitia rem eligendi culpa laudantium.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, dolorum mollitia rem eligendi culpa laudantium.</p>
+        <p>A Web Developer adept in all stages of advanced web development. Knowledgeable in user interface, testing, and debugging processes. </p>
+        <p>I will help you to, design, install, test, and maintain web systems. Able to effectively self-manage during independent projects, as well as collaboration in a team setting.</p>
          <div className='btn-fw'>Message me</div>
       </div>
       

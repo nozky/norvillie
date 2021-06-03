@@ -9,8 +9,13 @@ footer{
   display: flex;
   justify-content: center;
   color: var(--clr-btn);
-  gap: 1em;
+  padding: 0 0.2em;
   cursor: pointer;
+}
+
+.footer-nav-item{
+  white-space: nowrap;
+  font-size: small;
 }
 
 .footer-nav > div:hover{
