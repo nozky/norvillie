@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/norvillie/static/css/main.785d5130.chunk.css",
-    "main.js": "/norvillie/static/js/main.588dfc0c.chunk.js",
-    "main.js.map": "/norvillie/static/js/main.588dfc0c.chunk.js.map",
+    "main.js": "/norvillie/static/js/main.c48370a5.chunk.js",
+    "main.js.map": "/norvillie/static/js/main.c48370a5.chunk.js.map",
     "runtime-main.js": "/norvillie/static/js/runtime-main.f8e5eb5b.js",
     "runtime-main.js.map": "/norvillie/static/js/runtime-main.f8e5eb5b.js.map",
     "static/js/2.696093fc.chunk.js": "/norvillie/static/js/2.696093fc.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.f8e5eb5b.js",
     "static/js/2.696093fc.chunk.js",
     "static/css/main.785d5130.chunk.css",
-    "static/js/main.588dfc0c.chunk.js"
+    "static/js/main.c48370a5.chunk.js"
   ]
 }
