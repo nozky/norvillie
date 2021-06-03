@@ -24,6 +24,7 @@
   width: 100%;
   margin-bottom: 0.5em;
   border-radius: 5px;
+  box-shadow: 5px 5px 10px;
 }
 
 .about article .about-text{
@@ -32,8 +33,22 @@
   width: 50ch;
 }
 
+.about .about-text .button{
+  width: 25ch;
+  align-self: center;
+}
+
 .about .about-text span{
   color: var(--clr-btn)
+}
+
+.about .about-text a{
+  color: black;
+  text-decoration: none;
+}
+
+.about .about-text a:hover{
+  color: white;
 }
 
 .about article .btn{

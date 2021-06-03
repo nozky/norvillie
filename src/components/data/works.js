@@ -34,5 +34,19 @@ export const worksData = [
     url: '',
     related: false
   },
+  {
+    title: 'Solar Power Philippines',
+    year: '2021',
+    description: 'A visual representaion of how many solar power users in the philippines.',
+    url: 'https:solarpowerphi.solar',
+    related: true
+  },
+  {
+    title: 'Personal Portfolio',
+    year: '2021',
+    description: 'Using react.js with dynamic data',
+    url: 'norvillie.ml',
+    related: true
+  }
  
 ]

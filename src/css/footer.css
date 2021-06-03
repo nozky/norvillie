@@ -22,3 +22,7 @@ footer{
   opacity: 0.5;
   transition: opacity var(--default-transition-duration);
 }
+
+.footer p a{
+  color: white;
+}

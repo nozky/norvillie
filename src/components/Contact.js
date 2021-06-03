@@ -19,7 +19,7 @@ const Contact = () => {
             <input type="text" id='message' name='message' placeholder='Message'/>
           </div>
           <div>
-              <button className='btn-fw' type='submit' >SEND MESSAGE</button>
+              <button className='btn-fw' type='submit' >Send Message</button>
           </div>
         </form>
       

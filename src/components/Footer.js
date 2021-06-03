@@ -5,7 +5,7 @@ const Footer = ({links}) => {
 
 
   return (
-    <footer className='section-bg' id='footer'>
+    <footer className='section-bg footer' id='footer'>
       <div className="footer-nav">
         {links.map((link,index)=>{
           return(
@@ -19,7 +19,7 @@ const Footer = ({links}) => {
       </div>
       <p>Norvillie Villaruel</p>
       <p>FullStack Web Developer</p>
-      <p>norvillie.villaruel@gmail.com</p>
+      <p><a href="mailto: norvillie.villaruel@gmail.com">norvillie.villaruel@gmail.com</a></p>
     </footer>
   )
 }

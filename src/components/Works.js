@@ -54,7 +54,7 @@ const nextNotRelated =()=>{
     
         <article className='work-item related'>
           
-          <h3>Projects /Personal Projects</h3>
+          <h3>Projects</h3>
 
           <div className="item-list">
 
