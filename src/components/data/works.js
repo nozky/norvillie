@@ -45,7 +45,7 @@ export const worksData = [
     title: 'Personal Portfolio',
     year: '2021',
     description: 'Using react.js with dynamic data',
-    url: 'norvillie.ml',
+    url: 'https://nozky.github.io/norvillie/',
     related: true
   }
  
