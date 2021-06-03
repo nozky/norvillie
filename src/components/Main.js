@@ -20,7 +20,7 @@ const Main = () => {
       
         <div className='btn-cta'>
           <Link to="works" smooth={true}><div className='btn-fw'>View Work</div></Link>
-          <div className='btn-fw'>Hire me</div>
+          <div className='btn-fw'><Link to="contact" smooth={true} >Hire me</Link></div>
         </div>
       </div>
       
