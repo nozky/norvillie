@@ -1,4 +1,5 @@
 .contact{
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,6 +45,15 @@
   padding: 1em;
   border-bottom: 1px solid rgb(128, 128, 128);
 }
+
+.contact .contact-form textarea{
+  border: none;
+  border-bottom: 1px solid rgb(128, 128, 128);
+  width: 100%;
+  columns: 2;
+}
+
+
 
 @media screen and (min-width: 900px) {
   .contact .contact-form div:nth-of-type(1){
