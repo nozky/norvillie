@@ -8,11 +8,10 @@ import Contact from './components/Contact';
 import Works from './components/Works';
 import Education from './components/Education';
 import Skills from './components/Skills';
+import Acheivement from './components/Achievement'
 import {links} from './components/data/links'
 
 function App() {
-
-  
 
   return (
     <div className="app">
@@ -22,6 +21,7 @@ function App() {
       <Works />
       <Skills />
       <Education />
+      <Acheivement />
       <Contact />
       <Footer links={links} />
     </div>

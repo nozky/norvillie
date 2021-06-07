@@ -15,7 +15,7 @@ footer{
 
 .footer-nav-item{
   white-space: nowrap;
-  font-size: small;
+  font-size: clamp( 0.7rem, 2.5vw, 1rem );
 }
 
 .footer-nav > div:hover{

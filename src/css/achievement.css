@@ -1,0 +1,17 @@
+.achievement{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em 3em;
+  width: 100%;
+  gap: 2em;
+}
+
+.achievement h
+
+.achievement p{
+  text-align: justify;
+  line-height: 1.7em;
+}
+
