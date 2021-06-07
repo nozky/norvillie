@@ -38,7 +38,7 @@ export const worksData = [
     title: 'Solar Power Philippines',
     year: '2021',
     description: 'A visual representaion of how many solar power users in the philippines.',
-    url: 'https:solarpowerphi.solar',
+    url: 'https://solarpowerphi.solar',
     related: true
   },
   {
