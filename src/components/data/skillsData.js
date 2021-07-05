@@ -37,7 +37,7 @@ export const skills = [
     progress: 60
   },
   {
-    name: 'MONGO',
+    name: 'MONGODB',
     progress: 80
   },
   {
