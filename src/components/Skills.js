@@ -17,7 +17,7 @@ const Skills = () => {
 
       <div className="skill-wrapper">
         <div className='title'>
-          <h2 ref={trackedElement}>My Skills</h2>
+          <h3 ref={trackedElement}>My Skills</h3>
         </div>
         <ListSkill skills={skills} elPos={elPos}/>
       </div>
@@ -42,8 +42,8 @@ document.addEventListener('scroll',(e)=>{
         return(
           <div key={index} className="skills-item">
             <div>
-              <h5>{skill.name}</h5>
-              <div className="p-bar p-start" style={scroll > elPos/2? progress : {width: 0}} >{skill.progress}%</div>
+              <h6>{skill.name}</h6>
+              <div className="p-bar p-start" style={scroll > elPos/2? progress : {width: 0}} ><p>{skill.progress}%</p></div>
             </div>
           </div>
         )

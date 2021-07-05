@@ -1,7 +1,7 @@
 export const skills = [
   {
     name: 'HTML5',
-    progress: 80
+    progress: 85
   },
   {
     name: 'CSS',
@@ -9,7 +9,7 @@ export const skills = [
   },
   {
     name: 'JAVASCRIPT',
-    progress: 90
+    progress: 95
   },
   {
     name: 'NODE.JS',
@@ -20,13 +20,18 @@ export const skills = [
     progress: 75
   },
   {
-    name: 'REACT',
+    name: 'REACT.JS',
+    progress: 75
+  },
+  {
+    name: 'VUE.JS',
     progress: 70
   },
   {
     name: 'JAVA',
     progress: 60
   },
+
   {
     name: 'VISUAL C++',
     progress: 60

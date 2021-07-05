@@ -9,7 +9,7 @@ const Education = () => {
       
       <div className='education-wrapper'>
 
-        <div className="degree degree-1">
+        <div className="degree">
           <h3>Web Developer</h3>
           <h5>2021</h5>
           <p>Southern Alberta Institute of Technology<br/>Calgary</p>
@@ -17,6 +17,12 @@ const Education = () => {
         
         <div className="degree">
           <h3>React.js</h3>
+          <h5>2021</h5>
+          <p>FreeCodeCamp.org and Youtube Academy</p>
+        </div>
+
+        <div className="degree">
+          <h3>Vue.js</h3>
           <h5>2021</h5>
           <p>FreeCodeCamp.org and Youtube Academy</p>
         </div>
