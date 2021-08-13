@@ -1,8 +1,8 @@
 export const worksData = [
   {
-    title: 'Web Developer',
-    year: '2021',
-    description: 'Freelance Web Developer',
+    title: 'Web Developer at NextGen Technology',
+    year: '2021 to present',
+    description: 'Web Developer',
     url: '',
     related: false
   },
@@ -46,6 +46,13 @@ export const worksData = [
     year: '2021',
     description: 'Using react.js with dynamic data',
     url: 'https://nozky.github.io/norvillie/',
+    related: true
+  },
+  {
+    title: 'AiO.tv',
+    year: '2021',
+    description: 'Movie, Tv, Series streaming app for Windows, Mac, Linux. Using web technology( electron, vue - soon to be publish)',
+    url: '',
     related: true
   }
  

@@ -1,11 +1,11 @@
 export const skills = [
   {
     name: 'HTML5',
-    progress: 85
+    progress: 90
   },
   {
     name: 'CSS',
-    progress: 70
+    progress: 90
   },
   {
     name: 'JAVASCRIPT',
@@ -17,40 +17,42 @@ export const skills = [
   },
   {
     name: 'EXPRESS',
-    progress: 75
+    progress: 85
   },
   {
     name: 'REACT.JS',
-    progress: 75
+    progress: 90
   },
   {
     name: 'VUE.JS',
-    progress: 70
+    progress: 90
+  },
+  {
+    name: 'ELECTRON.js',
+    progress: 85
   },
   {
     name: 'JAVA',
-    progress: 60
+    progress: 75
   },
-
   {
     name: 'VISUAL C++',
-    progress: 60
+    progress: 75
   },
   {
     name: 'MONGODB',
-    progress: 80
+    progress: 85
   },
   {
     name: 'GIT and GITHUB',
-    progress: 80
+    progress: 95
   },
   {
     name: 'DEBUGGING',
-    progress: 85
+    progress: 95
   },
   {
     name: 'PROBLEM SOLVING',
-    progress: 85
+    progress: 95
   },
-  
 ]
