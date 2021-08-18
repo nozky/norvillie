@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/norvillie/static/css/main.d919035b.chunk.css",
+    "main.css": "/norvillie/static/css/main.42f18d8d.chunk.css",
     "main.js": "/norvillie/static/js/main.c39942e7.chunk.js",
     "main.js.map": "/norvillie/static/js/main.c39942e7.chunk.js.map",
     "runtime-main.js": "/norvillie/static/js/runtime-main.f8e5eb5b.js",
@@ -8,14 +8,14 @@
     "static/js/2.da1dc0bd.chunk.js": "/norvillie/static/js/2.da1dc0bd.chunk.js",
     "static/js/2.da1dc0bd.chunk.js.map": "/norvillie/static/js/2.da1dc0bd.chunk.js.map",
     "index.html": "/norvillie/index.html",
-    "static/css/main.d919035b.chunk.css.map": "/norvillie/static/css/main.d919035b.chunk.css.map",
+    "static/css/main.42f18d8d.chunk.css.map": "/norvillie/static/css/main.42f18d8d.chunk.css.map",
     "static/js/2.da1dc0bd.chunk.js.LICENSE.txt": "/norvillie/static/js/2.da1dc0bd.chunk.js.LICENSE.txt",
     "static/media/main.css": "/norvillie/static/media/norville.057b94e1.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.f8e5eb5b.js",
     "static/js/2.da1dc0bd.chunk.js",
-    "static/css/main.d919035b.chunk.css",
+    "static/css/main.42f18d8d.chunk.css",
     "static/js/main.c39942e7.chunk.js"
   ]
 }
