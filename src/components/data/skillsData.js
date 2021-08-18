@@ -51,8 +51,4 @@ export const skills = [
     name: 'DEBUGGING',
     progress: 95
   },
-  {
-    name: 'PROBLEM SOLVING',
-    progress: 95
-  },
 ]
