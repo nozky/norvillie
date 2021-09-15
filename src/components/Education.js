@@ -14,24 +14,26 @@ const Education = () => {
           <h5>2021</h5>
           <p>Southern Alberta Institute of Technology<br/>Calgary</p>
         </div>
-        
-        <div className="degree">
-          <h3>React.js</h3>
-          <h5>2021</h5>
-          <p>FreeCodeCamp.org and Youtube Academy</p>
-        </div>
-
-        <div className="degree">
-          <h3>Vue.js</h3>
-          <h5>2021</h5>
-          <p>FreeCodeCamp.org and Youtube Academy</p>
-        </div>
 
         <div className="degree">
           <h3>Bachelor or Arts, Major in Computer Science</h3>
           <h5>2002</h5>
           <p>Philippines</p>
         </div>
+        
+        <div className="degree">
+          <h3>React.js</h3>
+          <h5>2021</h5>
+          <p>Official Documentation, FreeCodeCamp.org and Youtube Academy</p>
+        </div>
+
+        <div className="degree">
+          <h3>Vue.js</h3>
+          <h5>2021</h5>
+          <p>Official Documentation, FreeCodeCamp.org and Youtube Academy</p>
+        </div>
+
+       
       
       </div>
     </section>
