@@ -1,17 +1,13 @@
 # My Personal Portfolio
 
----
 
-Overkill Porfolio, using React.js.
-
----
-***To Update information***
-1.) Update information
-2.) Git Add, Commit
-3.) $ npm run deploy, Thats it!
+My Porfolio using pure React.js.
 
 ---
+***Live Link***
+https://nozky.github.io/norvillie/
 
+---
 ### Author
 Norvillie Villaruel
 FullStack
