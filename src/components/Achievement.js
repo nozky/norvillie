@@ -29,7 +29,7 @@ const Achievement = () => {
           <div className="text">
             <h3>Student Excellence Award</h3>
             <p>2019</p>
-            <p>This acknowledgement is awarded to hose students who demonstrate a commitments to success as a student and as a professional.</p>
+            <p>This acknowledgement is awarded to those students who demonstrate a commitments to success as a student and as a professional.</p>
           </div>
         </div>
         </div>
