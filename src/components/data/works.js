@@ -42,6 +42,13 @@ export const worksData = [
     related: false
   },
   {
+    title: 'Records',
+    year: '2021',
+    description: 'This is just a overnight project, The app is made with react, express.js and mongodb on the backend. Purpose is to Keep track of visitors',
+    url: 'https://records-clients.herokuapp.com/login',
+    related: true
+  },
+  {
     title: 'Solar Power Philippines',
     year: '2021',
     description: 'A visual representaion of solar power system users in the philippines.',

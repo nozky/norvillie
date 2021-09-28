@@ -2,17 +2,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1em 2em;
-  height: 100% ;
+  padding: 3em 2em;
+  height: 100%;
 }
 
 .skill .skill-wrapper{
   width: 100%;
-  padding-top: 1em;
+  height: 100%;  
+  padding-top: 0.5em;
+  overflow-y: scroll;
+  scrollbar-width: none;
 }
 
 .skill-wrapper .title{
   text-align: center;
+  font-size: 1.5em;
 }
 
 .skill-wrapper .title h3{
@@ -21,7 +25,7 @@
 
 
 .skill-wrapper .skills-item{
-  margin-top: 0.2em;
+  margin-top: 0.1em;
 }
 
 .skill-wrapper .skills-item .p-bar{
