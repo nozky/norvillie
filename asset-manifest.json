@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/norvillie/static/css/main.42f18d8d.chunk.css",
-    "main.js": "/norvillie/static/js/main.2ba323bb.chunk.js",
-    "main.js.map": "/norvillie/static/js/main.2ba323bb.chunk.js.map",
+    "main.css": "/norvillie/static/css/main.331f8d64.chunk.css",
+    "main.js": "/norvillie/static/js/main.1538f76a.chunk.js",
+    "main.js.map": "/norvillie/static/js/main.1538f76a.chunk.js.map",
     "runtime-main.js": "/norvillie/static/js/runtime-main.f8e5eb5b.js",
     "runtime-main.js.map": "/norvillie/static/js/runtime-main.f8e5eb5b.js.map",
     "static/js/2.da1dc0bd.chunk.js": "/norvillie/static/js/2.da1dc0bd.chunk.js",
     "static/js/2.da1dc0bd.chunk.js.map": "/norvillie/static/js/2.da1dc0bd.chunk.js.map",
     "index.html": "/norvillie/index.html",
-    "static/css/main.42f18d8d.chunk.css.map": "/norvillie/static/css/main.42f18d8d.chunk.css.map",
+    "static/css/main.331f8d64.chunk.css.map": "/norvillie/static/css/main.331f8d64.chunk.css.map",
     "static/js/2.da1dc0bd.chunk.js.LICENSE.txt": "/norvillie/static/js/2.da1dc0bd.chunk.js.LICENSE.txt",
-    "static/media/main.css": "/norvillie/static/media/norville.057b94e1.webp"
+    "static/media/cdi.790011a6.png": "/norvillie/static/media/cdi.790011a6.png",
+    "static/media/main.css": "/norvillie/static/media/norville.057b94e1.webp",
+    "static/media/ptk.4e5f6a49.jpg": "/norvillie/static/media/ptk.4e5f6a49.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.f8e5eb5b.js",
     "static/js/2.da1dc0bd.chunk.js",
-    "static/css/main.42f18d8d.chunk.css",
-    "static/js/main.2ba323bb.chunk.js"
+    "static/css/main.331f8d64.chunk.css",
+    "static/js/main.1538f76a.chunk.js"
   ]
 }
