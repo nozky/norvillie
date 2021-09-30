@@ -25,7 +25,7 @@ export const skills = [
   },
   {
     name: 'VUE.JS',
-    progress: 90
+    progress: 85
   },
   {
     name: 'ELECTRON.js',

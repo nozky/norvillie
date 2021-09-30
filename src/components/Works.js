@@ -65,7 +65,6 @@ const nextNotRelated =()=>{
             })}
 
           </div>
-          {/* =====button===== */}
           <div className="btn-nav">
             <div onClick={prevProject}>prev</div>
             <div className='btn-nav-dot'>

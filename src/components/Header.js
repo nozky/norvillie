@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{useState, useLayoutEffect, useEffect} from 'react'
 import '../css/header.css'
 import {Link} from 'react-scroll'
 
@@ -6,19 +6,26 @@ import {Link} from 'react-scroll'
 const Header = ({links}) => {
   
   const [scroll, setScroll] = useState(1)
+  const [ headerVisibility, seHeaderVisibility ] = useState(false)
 
- document.body.onscroll = (e)=>{
-  let scrollPosition = window.scrollY
-  setScroll((prev)=> prev = scrollPosition)
-}
+  useLayoutEffect(()=>{
+    document.body.onscroll = (e)=>{
+      let scrollPosition = window.scrollY
+      setScroll(scrollPosition)
+    }
+  })
+  
+  useEffect(()=>{
+    if(scroll > 100) {
+      seHeaderVisibility(false)
+    }else{
+      seHeaderVisibility(true)
+    }  
+  },[scroll])
 
-  let headerVisibility = 'header-active'
-  if(scroll > 100){
-    headerVisibility ='header-active fade-out'
-  }
 
   return (
-    <header className={headerVisibility}>
+    <header className={headerVisibility ? "header-active " : "header-active fade-out"}>
           <h2 className='logo'>N</h2>
         <nav>
           <ul>

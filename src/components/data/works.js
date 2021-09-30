@@ -1,4 +1,13 @@
+// related means, related to projects
+
 export const worksData = [
+  {
+    title: 'Southern Alberta Institute of Technology (SAIT)',
+    year: '2021 to present',
+    description: 'Student Mentor',
+    url: '',
+    related: false
+  },
   {
     title: 'Web Developer at NextGen Technology',
     year: '2021 to present',
@@ -45,7 +54,7 @@ export const worksData = [
     title: 'Records',
     year: '2021',
     description: 'This is just a overnight project, The app is made with react, express.js and mongodb on the backend. Purpose is to Keep track of visitors',
-    url: 'https://records-clients.herokuapp.com/login',
+    url: 'https://records-clients.herokuapp.com',
     related: true
   },
   {

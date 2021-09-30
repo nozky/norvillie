@@ -1,6 +1,6 @@
 import React from 'react'
 import '../css/achievement.css'
-import cdi from '../assests/cdi.png'
+import cdi from '../assests/cdi-award.jpg'
 import ptk from '../assests/ptk.jpg'
 
 const Achievement = () => {

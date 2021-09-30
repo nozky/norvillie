@@ -3,10 +3,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0.5em 3em;
+  padding: 3em;
   width: 100%;
   gap: 2em;
   overflow: auto;
+}
+
+.achievement .wrapper{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3em;
+
 }
 
 
@@ -19,6 +28,7 @@
   display: flex;
   flex-direction: row;
   margin-top: 0.2em;
+  flex-wrap: wrap;
 }
 
 .achievement .award .image{
@@ -46,8 +56,23 @@ p{
   .achievement{
     padding: 0.5em;
   }
+
+  .achievement h1{
+    text-align: center;
+    margin-top: 1em;
+  }
+
+  .achievement .wrapper{
+    padding: 2em 0;
+  }
+
+  .achievement .award{
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
   
   .achievement .award .image{
-    display: none;
+    min-width: 275px;
   } 
 }

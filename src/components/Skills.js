@@ -1,4 +1,4 @@
-import React, { useState,useRef, useEffect } from 'react'
+import React, { useState,useRef, useLayoutEffect } from 'react'
 import '../css/skill.css'
 import {skills} from './data/skillsData'
 
@@ -7,7 +7,7 @@ const Skills = () => {
 
   const trackedElement = useRef(null)
 
-  useEffect(()=>{
+  useLayoutEffect(()=>{
    setElPos(trackedElement.current.offsetTop)
   },[])
 
@@ -28,13 +28,16 @@ const Skills = () => {
 
 // component
 const ListSkill = ({skills,elPos}) => {
-const [scroll, setScroll] = useState(0)
- 
-document.addEventListener('scroll',(e)=>{
-  let scrollPosition = window.scrollY
-  setScroll((prev)=> prev = scrollPosition)
-})
+  
+  const [scroll, setScroll] = useState(0)
 
+  useLayoutEffect(()=>{
+    document.addEventListener('scroll',(e)=>{
+      setScroll(window.scrollY)
+    })
+  })
+ 
+  
   return(
     <>
       {skills.map((skill,index)=>{
