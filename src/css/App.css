@@ -24,7 +24,7 @@
   font-weight: 500;
   background-color: var(--clr-btn);
   color: black;
-  border-radius: 10px;
+  border-radius: 5px;
   border: 2px solid var(--clr-btn);
   min-width: 12ch;
   padding: 0.2em 0.5em;

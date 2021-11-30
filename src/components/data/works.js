@@ -10,9 +10,9 @@ export const worksData = [
   },
   {
     title: 'Web Developer at NextGen Technology',
-    year: '2021 to present',
+    year: '2021 to October 2021',
     description: 'Web Developer',
-    url: '',
+    url: 'https://nextgencomtech.ca/',
     related: false
   },
   {
@@ -53,14 +53,14 @@ export const worksData = [
   {
     title: 'Records',
     year: '2021',
-    description: 'This is just a overnight project, The app is made with react, express.js and mongodb on the backend. Purpose is to Keep track of visitors',
+    description: 'This is just a overnight project, The app is made with react, express.js and mongodb on the backend to quickly track visitors',
     url: 'https://records-clients.herokuapp.com',
     related: true
   },
   {
     title: 'Solar Power Philippines',
     year: '2021',
-    description: 'A visual representaion of solar power system users in the philippines.',
+    description: 'Solar power philippines is a visual representaion of solar power system users in the philippines.  UI need to be updated, I just have no time to do it 😊',
     url: 'https://solarpowerphi.solar',
     related: true
   },
@@ -74,7 +74,7 @@ export const worksData = [
   {
     title: 'AiO.tv',
     year: '2021',
-    description: 'Movie, Tv, Series streaming app for Windows, Mac, Linux. Using web technology( electron.js, vue.js ), soon to be publish.',
+    description: 'Movie, Tv, Series streaming app for Windows, Mac, Linux. Using electron.js, vue.js, soon to be publish. But I can show you the prototype when we get to talk in person 😏, This project is with nextGen Technology as my employer.',
     url: '',
     related: true
   },

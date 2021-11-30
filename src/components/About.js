@@ -19,13 +19,22 @@ const About = () => {
             <img src="https://raw.githubusercontent.com/nozky/assets/master/picture/Norvillie-profilePix.jpg" alt="Norvillie Villaruel" />
           </div>
 
-            <p>A Web developer from Southern Alberta Institute of Technology with [GPA 3.96] score.</p>
-            <p>A graduate of a four-year course (Bachelor of Arts, Major in Computer Science) from the Philippines.</p>
-            <p>Currently, I am working with NextGen Technology (Calgary branch), a Freelancer and SAIT web development student mentor.
-              <br/> I am that person who always want to know how things work and tweak if i could make it even more efficient.
+            <p>A Web developer from Southern Alberta Institute of Technology with [GPA 3.96] score.
+              <br/>A graduate of a four-year course (Bachelor of Arts, Major in Computer Science) from the philippines.
             </p>
-            <p>People, Employer, Agents, Friends! I love to hear anything from you. Send me a quick message for any questions.</p>
-            <p>Thank you for visiting my page.</p> 
+            <p>Currently I am doing freelancing and SAIT web development student mentor.
+              <br/> I am that person who always curious on how things work and tweak if i could make it even more efficient.
+            </p>
+            <p>Mostly i am working using javascript framework, like react.js, vue.js, electron.js. etc...
+              <br/>also node.js express and some nodejs libraries for the backend.
+            </p>
+
+            <p>I have personal experience building full-stack application using MERN stack using best practices gather around the web.</p>
+
+            <p>Thank you for your interest and for visiting my page.
+              <br/> Please let me know how i can help!  
+            </p> 
+
          </div>   
 
          <div className='btn-fw button'><Link to="contact" smooth={true} duration={1000}>Send Me Direct Message</Link></div>
