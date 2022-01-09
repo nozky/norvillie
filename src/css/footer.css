@@ -3,6 +3,7 @@ footer{
   color: white;
   text-align: center;
   padding: 1em;
+  border-top: 1px solid rgba(211, 211, 211, 0.3);
 }
 
 .footer-nav{
@@ -21,6 +22,10 @@ footer{
 .footer-nav > div:hover{
   opacity: 0.5;
   transition: opacity var(--default-transition-duration);
+}
+
+.footer p{
+  margin-top: 0;
 }
 
 .footer p a{

@@ -1,11 +1,11 @@
 
 
-.app{
-  height: 100%;
+body, #root, .app{
+  min-height: 100vh;
 }
 
 .section{
-  min-height: 100%;
+  min-height: 100vh;
 }
 
 .section-bg:nth-child(even){
@@ -23,7 +23,7 @@
 .btn-fw{
   font-weight: 500;
   background-color: var(--clr-btn);
-  color: black;
+  color: rgb(0, 19, 70);
   border-radius: 5px;
   border: 2px solid var(--clr-btn);
   min-width: 12ch;

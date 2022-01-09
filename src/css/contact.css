@@ -35,10 +35,6 @@
  gap: 1em;
 }
 
-/* .contact .contact-form div:nth-of-type(1) > input{
-  width: 100%;;
-} */
-
 .contact .contact-form input{
   width: 100%;
   border: none;
@@ -56,6 +52,9 @@
   padding: 1em;
 }
 
+.contact-form .btn-fw{
+  padding: 1rem;
+}
 
 
 @media screen and (min-width: 900px) {

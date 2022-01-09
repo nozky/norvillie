@@ -7,8 +7,6 @@ const About = () => {
     <section className='section about section-bg'>
       <article>
 
-      
-
       <div className='about-text'>
         <h2>My Name is <span>Norvillie</span></h2>
         <h4>Full Stack Web Developer</h4>

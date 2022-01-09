@@ -21,7 +21,6 @@ useEffect(()=>{
   const newWorks = works.filter((work)=> work.related === true)
   setRelatedWorks(newWorks)
 
-
   const newNotRelated = works.filter((work)=>work.related === false)
   setNotRelated(newNotRelated)
  },[works])
@@ -52,18 +51,14 @@ const nextNotRelated =()=>{
 
       <div className='works-wrapper'>
     
-        <article className='work-item related'>
-          
-          <h3>Projects</h3>
-
+        <article className='work-item'>
+          <h3 className='section-title'>Projects</h3>
           <div className="item-list">
-
-            {relatedWorks.map((work, index)=>{
+            {relatedWorks.map( (work, index) => {
               let cName = 'item'
               indexProject === index? cName='item active' : cName='item'  
               return(<WorkItem key={index} work={work} cName={cName}/>) 
             })}
-
           </div>
           <div className="btn-nav">
             <div onClick={prevProject}>prev</div>
@@ -76,24 +71,18 @@ const nextNotRelated =()=>{
             </div>
             <div onClick={nextProject}>next</div>
           </div>
-        
         </article>
     
-
-    {/* Non related jobs */}
-        <article className='work-item non-related'>
-          <h3>Jobs</h3>
-
+        <article className='work-item'>
+          <h3 className='section-title'>Jobs</h3>
           <div className="item-list">
-
-          {notRelated.map((work, index)=>{
+            {notRelated.map((work, index)=>{
               let cName = 'item'
               indexNotRelated === index? cName='item active' : cName='item'  
               return(<WorkItem key={index} work={work} cName={cName}/>) 
             })}
-          </div>
-
-          {/* ====button===== */}
+            </div>
+          
           <div className="btn-nav">
             <div onClick={prevNotRelated}>prev</div>
             <div className='btn-nav-dot'>
@@ -105,7 +94,6 @@ const nextNotRelated =()=>{
             </div>
             <div onClick={nextNotRelated}>next</div>
           </div>
-
         </article>
     
       </div>
