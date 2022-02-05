@@ -12,6 +12,10 @@ export const skills = [
     progress: 95
   },
   {
+    name: 'TYPESCRIPT',
+    progress: 80
+  },
+  {
     name: 'NODE.JS',
     progress: 90
   },

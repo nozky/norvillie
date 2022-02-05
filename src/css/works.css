@@ -33,6 +33,7 @@
   width: 100%;
   min-height: 400px;
   overflow: hidden;
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
 }
 
 .work-item .section-title{

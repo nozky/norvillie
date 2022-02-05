@@ -9,6 +9,13 @@ export const worksData = [
     related: false
   },
   {
+    title: 'Who wants to be a Web Developer (Trivia Game)',
+    year: '2022',
+    description: 'A project built to show students. Using React.js and TypeScript.',
+    url: 'https://who-wants-to-be-a-web-developer.netlify.app/',
+    related: true
+  },
+  {
     title: 'Web Developer at NextGen Technology',
     year: '2021 to October 2021',
     description: 'Web Developer',
@@ -49,13 +56,6 @@ export const worksData = [
     description: 'Busan, South Korean',
     url: '',
     related: false
-  },
-  {
-    title: 'Records',
-    year: '2021',
-    description: 'This is just a overnight project, The app is made with react, express.js and mongodb on the backend to quickly track visitors',
-    url: 'https://records-clients.herokuapp.com',
-    related: true
   },
   {
     title: 'Solar Power Philippines',
