@@ -2,6 +2,13 @@
 
 export const worksData = [
   {
+    title: 'Train your Machine (Ai - Machine learning)',
+    year: '2021',
+    description: 'A simple demo of machine learning using Vanilla JavaScript with ml5 library. This is my final Presentaion.',
+    url: 'https://machine-that-learn.netlify.app/',
+    related: true
+  },
+  {
     title: 'Southern Alberta Institute of Technology (SAIT)',
     year: '2021 to present',
     description: 'Student Mentor',
