@@ -37,6 +37,5 @@ code {
 }
 
 #root{
-  height: 100%;
-  background-color: aqua;
+  min-height: 100%;
 }

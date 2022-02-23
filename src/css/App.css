@@ -21,7 +21,7 @@ body, .app{
 }
 
 .btn-fw{
-  font-weight: 500;
+  font-weight: 800;
   background-color: var(--clr-btn);
   color: rgb(0, 19, 70);
   border-radius: 5px;
@@ -41,7 +41,6 @@ body, .app{
 .btn{
   display: inline;
   font-weight: bold;
-  color: var(--clr-btn);
   transition-duration: var(--default-transition-duration);
   cursor: pointer;
 }
