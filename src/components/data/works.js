@@ -2,6 +2,13 @@
 
 export const worksData = [
   {
+    title: 'Quick Menu',
+    year: '2022',
+    description: 'Create multiple account and build your on menu guide. ( Test Account 1 -  username: test1@mail.com pwd: a123  Test Account 2 - test2@mailcom pwd: a123)',
+    url: 'https://menu-book-client.herokuapp.com/',
+    related: true
+  },
+  {
     title: 'Train your Machine (Ai - Machine learning)',
     year: '2021',
     description: 'A simple demo of machine learning using Vanilla JavaScript with ml5 library. This is my final Presentaion.',
