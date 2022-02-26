@@ -4,7 +4,7 @@ export const worksData = [
   {
     title: 'Quick Menu',
     year: '2022',
-    description: 'Create multiple account and build your on menu guide. ( Test Account 1 -  username: test1@mail.com pwd: a123  Test Account 2 - test2@mailcom pwd: a123)',
+    description: 'Create multiple account and build your on menu guide. Try this accounts: (username: test1@mail.com pwd: a123)  (test2@mailcom pwd: a123). Note: All information is not accurate, this is just for test purpose. Issue: Not fully working on safari browser for some reason, Pleases use Google Chrome or Firefox.',
     url: 'https://menu-book-client.herokuapp.com/',
     related: true
   },
