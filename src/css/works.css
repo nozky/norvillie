@@ -19,6 +19,7 @@
   padding: 1rem;
   margin: 1rem;
   width: 100%;
+  min-height: 100vh;
   gap: 1em;
 }
 
@@ -31,7 +32,7 @@
   padding: 1em;
   border-radius: 5px;
   width: 100%;
-  min-height: 450px;
+  height: min-content;
   overflow: hidden;
   font-size: clamp(1.2rem, 2vw, 1.5rem);
 }
@@ -43,10 +44,8 @@
 
 .work-item .item-list{
   position: relative;
-  height: 100%;
+  min-height: 450px;
   width: 100%;
-  display: flex;
-  align-items: center;
   padding: 1rem;
 }
 
@@ -54,19 +53,24 @@
   position: absolute;
   top: 0;
   right: o;
+  bottom: 0;
   opacity: 0;
   transition-duration: var(--default-transition-duration);
 }
 
 .item-list .item.active {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  width: 100%;
   transition-delay: 800ms;
   opacity: 1;
-  padding: 0.5em 1em;
   z-index: 100;
 }
 
 .works-wrapper .item-list .item h3{
   font-size: smaller;
+  text-align: center;
 }
 
 .works-wrapper .item-list .item p{
@@ -79,7 +83,7 @@
   font-size: smaller;
 }
 
-.works-wrapper .work-item .btn-nav{
+.works-wrapper .btn-nav{
   position:absolute;
   bottom: 0;
   left: 0;
@@ -94,7 +98,7 @@
 
 .works-wrapper .work-item .btn-nav .btn-nav-dot{
   display: flex;
-  gap: 1em;
+  gap: 0.5em;
 }
 
 .works-wrapper .work-item .btn-nav .btn-nav-dot .dot-active{
@@ -104,6 +108,11 @@
 
 
 @media screen and (min-width: 900px) {
+
+  .works-wrapper .work-item {
+    height: min-content;
+  }
+
   .works{
     padding: 3em;
   }

@@ -5,7 +5,7 @@ body, .app{
 }
 
 .section{
-  min-height: 100%;
+  min-height: 100vh;
 }
 
 .section-bg:nth-child(even){
