@@ -18,19 +18,21 @@ const About = () => {
           </div>
 
             <p>A Web developer from Southern Alberta Institute of Technology with [GPA 3.96] score.
-              <br/>A graduate of a four-year course (Bachelor of Arts, Major in Computer Science) from the philippines.
+              <br/>A graduate of a four-year course (Bachelor of Arts, Major in Computer Science) from the Philippines.
             </p>
-            <p>Currently I am doing freelancing and SAIT web development student mentor.
-              <br/> I am that person who always curious on how things work and tweak if i could make it even more efficient.
+            <p>Currently, I am doing freelancing and SAIT web development student mentor.
+              <br/> I am that person who always curious on how things work and tweak if I could make it even more efficient.
             </p>
-            <p>Mostly i am working using javascript framework, like react.js, vue.js, electron.js. etc...
+            <p>Mostly, I am working using javascript framework, like react.js, vue.js
               <br/>also node.js express and some nodejs libraries for the backend.
             </p>
 
             <p>I have personal experience building full-stack application using MERN stack using best practices gather around the web.</p>
 
-            <p>Thank you for your interest and for visiting my page.
-              <br/> Please let me know how i can help!  
+            <p>Thank you for your interest and for visiting my page!
+              <br/> 
+              <br/> 
+              Please let me know how I can help!  
             </p> 
 
          </div>   
