@@ -11,7 +11,7 @@ export const worksData = [
   {
     title: 'Train your Machine (Ai - Machine learning)',
     year: '2021',
-    description: 'A simple demo of machine learning using Vanilla JavaScript with ml5 library. This is my final Presentaion.',
+    description: 'A simple demo of machine learning using Vanilla JavaScript with ml5 library.',
     url: 'https://machine-that-learn.netlify.app/',
     related: true
   },
@@ -25,7 +25,7 @@ export const worksData = [
   {
     title: 'Who wants to be a Web Developer (Trivia Game)',
     year: '2022',
-    description: 'A project built to show students. Using React.js and TypeScript.',
+    description: 'This is a simple project for student learning basic React.js and TypeScript. Using React.js and TypeScript.',
     url: 'https://who-wants-to-be-a-web-developer.netlify.app/',
     related: true
   },
@@ -52,7 +52,7 @@ export const worksData = [
   },
   {
     title: 'Part time Cook',
-    year: '2012 - Present',
+    year: '2012 - 2022',
     description: 'work description',
     url: 'https://www.humptys.com/',
     related: false
