@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/norvillie/static/css/main.449e7f53.css",
-    "main.js": "/norvillie/static/js/main.0c2a5797.js",
+    "main.js": "/norvillie/static/js/main.963ca176.js",
     "static/media/cdi-award.jpg": "/norvillie/static/media/cdi-award.0c6eab095c25c5ea52c1.jpg",
     "static/media/norville.webp": "/norvillie/static/media/norville.057b94e1df3a8eb7138d.webp",
     "static/media/ptk.jpg": "/norvillie/static/media/ptk.4e5f6a499e05f3cd8e5f.jpg",
     "index.html": "/norvillie/index.html",
     "main.449e7f53.css.map": "/norvillie/static/css/main.449e7f53.css.map",
-    "main.0c2a5797.js.map": "/norvillie/static/js/main.0c2a5797.js.map"
+    "main.963ca176.js.map": "/norvillie/static/js/main.963ca176.js.map"
   },
   "entrypoints": [
     "static/css/main.449e7f53.css",
-    "static/js/main.0c2a5797.js"
+    "static/js/main.963ca176.js"
   ]
 }
