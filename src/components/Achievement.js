@@ -1,7 +1,7 @@
 import React from 'react'
 import '../css/achievement.css'
 import cdi from '../assests/cdi-award.jpg'
-import ptk from '../assests/ptk.jpg'
+import ptk from '../assests/ptk-cert.jpeg'
 
 const Achievement = () => {
   return (
