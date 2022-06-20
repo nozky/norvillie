@@ -20,7 +20,7 @@ export const skills = [
     progress: 90
   },
   {
-    name: 'EXPRESS',
+    name: 'EXPRESS.JS',
     progress: 90
   },
   {
@@ -40,16 +40,8 @@ export const skills = [
     progress: 85
   },
   {
-    name: 'ELECTRON.js',
+    name: 'ELECTRON.JS',
     progress: 85
-  },
-  {
-    name: 'JAVA',
-    progress: 75
-  },
-  {
-    name: 'VISUAL C++',
-    progress: 75
   },
   {
     name: 'MONGODB',
@@ -59,8 +51,5 @@ export const skills = [
     name: 'GIT and GITHUB',
     progress: 95
   },
-  {
-    name: 'DEBUGGING',
-    progress: 95
-  },
+  
 ]

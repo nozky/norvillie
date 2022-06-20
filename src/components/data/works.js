@@ -4,7 +4,7 @@ export const worksData = [
   {
     title: 'Quick Menu',
     year: '2022',
-    description: 'Create multiple account and build your on menu guide. Try this accounts: (username: test1@mail.com pwd: a123)  (test2@mailcom pwd: a123). Note: All information is not accurate, this is just for test purposes only. Issue: Not fully working on safari browser for some reason, Please use Google Chrome or Firefox.',
+    description: 'Create multiple accounts and build your on menu guide.',
     url: 'https://menu-book-client.herokuapp.com/',
     related: true
   },
@@ -17,15 +17,15 @@ export const worksData = [
   },
   {
     title: 'Southern Alberta Institute of Technology (SAIT)',
-    year: '2021 to present',
-    description: 'Student Mentor',
+    year: '2021',
+    description: 'Former Student Mentor',
     url: '',
     related: false
   },
   {
     title: 'Who wants to be a Web Developer (Trivia Game)',
     year: '2022',
-    description: 'This is a simple project for student learning basic React.js and TypeScript. Using React.js and TypeScript.',
+    description: 'This is a simple project for student learning basic React.js and TypeScript.',
     url: 'https://who-wants-to-be-a-web-developer.netlify.app/',
     related: true
   },
@@ -74,7 +74,7 @@ export const worksData = [
   {
     title: 'Solar Power Philippines',
     year: '2021',
-    description: 'Solar power philippines is a visual representaion of solar power system users in the philippines.  UI need to be updated, I just have no time to do it 😊',
+    description: 'Solar power philippines is a visual representaion of solar power system users in the philippines or It can be around the globe.',
     url: 'https://solarpowerphi.solar',
     related: true
   },

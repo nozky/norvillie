@@ -52,7 +52,7 @@ const nextNotRelated =()=>{
       <div className='works-wrapper'>
     
         <article className='work-item'>
-          <h3 className='section-title'>Projects</h3>
+          <h3 className='section-title'>Projects Demo</h3>
           <div className="item-list">
             {relatedWorks.map( (work, index) => {
               let cName = 'item'
