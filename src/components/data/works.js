@@ -4,7 +4,7 @@ export const worksData = [
   {
     title: 'Note Moko',
     year: '2022',
-    description: 'Note taking app. (Try creating a note)',
+    description: 'Note taking app using React.js, Typescript and  Graphql Node.js for backend. (Try creating a note)',
     url: 'https://note-moko.netlify.app/',
     related: true
   },
