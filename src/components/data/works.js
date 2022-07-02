@@ -1,11 +1,19 @@
 // related means, related to projects
 
 export const worksData = [
+  
   {
     title: 'Note Moko',
     year: '2022',
     description: 'Note taking app using React.js, Typescript and  Graphql Node.js for backend. (Try creating a note)',
     url: 'https://note-moko.netlify.app/',
+    related: true
+  },
+  {
+    title: 'Ai Circle',
+    year: '2021',
+    description: 'A demo of object oriented programming using Pure Vanilla Javascript. (No library)',
+    url: 'https://nozky.github.io/ai-circles/',
     related: true
   },
   {
