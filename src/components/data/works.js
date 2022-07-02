@@ -2,6 +2,13 @@
 
 export const worksData = [
   {
+    title: 'Note Moko',
+    year: '2022',
+    description: 'Note taking app. (Try creating a note)',
+    url: 'https://note-moko.netlify.app/',
+    related: true
+  },
+  {
     title: 'Quick Menu',
     year: '2022',
     description: 'Create multiple accounts and build your on menu guide.',
