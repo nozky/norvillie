@@ -63,7 +63,7 @@ const nextNotRelated =()=>{
           <div className="btn-nav">
             <div onClick={prevProject}>prev</div>
             <div className='btn-nav-dot'>
-              {relatedWorks.map( (work,index)=>{
+              {relatedWorks.map( (work,index) => {
                 let cName = 'dot'
                 {if(index === indexProject) { cName='dot dot-active'}}
                  return (<div key={index} className={cName} onClick={()=> setIndexProject(index)}>{index+1}</div>)
