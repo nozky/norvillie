@@ -5,7 +5,7 @@ export const worksData = [
   {
     title: 'Note Moko',
     year: '2022',
-    description: 'Note taking app using React.js, Typescript and  Graphql Node.js for backend. (Try creating a note)',
+    description: 'Note taking app using React.js, Typescript and  Graphql Node.js for backend.',
     url: 'https://note-moko.netlify.app/',
     imageUrl: '',
     related: true
@@ -22,13 +22,13 @@ export const worksData = [
     title: 'Quick Menu',
     year: '2022',
     description: 'Create multiple accounts and build your on menu guide.',
-    url: 'https://menu-book-client.herokuapp.com/',
+    url: 'https://menu-book.netlify.app',
     related: true
   },
   {
     title: 'Train your Machine (Ai - Machine learning)',
     year: '2021',
-    description: 'A simple demo of machine learning using Vanilla JavaScript with ml5 library.',
+    description: 'A demo of machine learning using Vanilla JavaScript with ml5 library.',
     url: 'https://machine-that-learn.netlify.app/',
     related: true
   },
@@ -65,13 +65,6 @@ export const worksData = [
     year: '2021',
     description: 'Solar power philippines is a visual representaion of solar power system users in the philippines or It can be around the globe.',
     url: 'https://solarpowerphi.solar',
-    related: true
-  },
-  {
-    title: 'Personal Portfolio',
-    year: '2021',
-    description: 'Using react.js with dynamic data, anything you see in the portfolio is pure React including animations.',
-    url: 'https://nozky.github.io/norvillie/',
     related: true
   },
   {
