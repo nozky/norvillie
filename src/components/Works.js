@@ -47,12 +47,12 @@ const nextNotRelated =()=>{
 
   return (
     <section className='section works section-bg' id='works'>
-      <h2 className='title'>My Works</h2>
+      <h2 className='title'>Experience</h2>
 
       <div className='works-wrapper'>
     
         <article className='work-item'>
-          <h3 className='section-title'>Projects Demo</h3>
+          <h3 className='section-title'>Projects</h3>
           <div className="item-list">
             {relatedWorks.map( (work, index) => {
               let cName = 'item'
@@ -95,7 +95,7 @@ const nextNotRelated =()=>{
             <div onClick={nextNotRelated}>next</div>
           </div>
         </article>
-    
+              
       </div>
     
     </section>
