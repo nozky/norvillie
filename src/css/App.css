@@ -1,26 +1,52 @@
-
-
-body, .app{
+.app {
   min-height: 100vh;
-}
-
-.section{
-  min-height: 100vh;
-}
-
-.section-bg:nth-child(even){
-  background-color: var(--default-background-color);
-  color: white;
-}
-
-/*custom*/
-.flex-center{
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.btn-fw{
+.app a {
+  font-size: clamp(1.3rem, 2.5vw, 5rem);
+  text-decoration: none;
+  transition: all 250ms;
+  text-align: center;
+  border: 1px solid lightgray;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  background: rgba(211, 211, 211, 0.602);
+  line-height: 1.7rem;
+  display: grid;
+  gap: 2rem;
+}
+
+.app a span {
+  text-decoration: underline;
+  line-height: 2rem;
+}
+
+.app a:hover {
+  scale: 1.05;
+  font-weight: bold;
+
+}
+
+.section {
+  min-height: 100vh;
+}
+
+.section-bg:nth-child(even) {
+  background-color: var(--default-background-color);
+  color: white;
+}
+
+/*custom*/
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-fw {
   font-weight: 800;
   background-color: var(--clr-btn);
   color: rgb(0, 19, 70);
@@ -33,19 +59,19 @@ body, .app{
   cursor: pointer;
 }
 
-.btn-fw:hover{
+.btn-fw:hover {
   background-color: var(--bg-color-effect);
   color: white;
 }
 
-.btn{
+.btn {
   display: inline;
   font-weight: bold;
   transition-duration: var(--default-transition-duration);
   cursor: pointer;
 }
 
-.btn:hover{
+.btn:hover {
   background-color: var(--bg-color-effect);
   color: white;
 }

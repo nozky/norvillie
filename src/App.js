@@ -15,15 +15,16 @@ function App() {
 
   return (
     <div className="app">
-      <Header links={links}/>
-      <Main />
+      {/* <Header links={links}/> */}
+      {/* <Main />
       <About />
       <Works />
       <Skills />
       <Education />
       <Acheivement />
-      <Contact />
-      <Footer links={links} />
+      <Contact /> */}
+      {/* <Footer links={links} /> */}
+      <a href='https://norvillie-villaruel.dev/'>"Elegantly guide your way to my freshly curated page"<br/> <span>https://norvillie-villaruel.dev/</span> </a> 
     </div>
   );
 }
